@@ -1,0 +1,23 @@
+{
+  "name": "rakuten",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "cy:run": "cypress run --browser chrome --config-file cypress.config.js",
+      "cy:open": "cypress open --config-file cypress.config.js",
+      
+      "lint": "eslint cypress",
+      "lint:fix": "eslint --fix cypress",
+      "cy:run-all-lint": "npm run-s lint && npm run-s cy:run-all"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+      "@actions/core": "^1.10.0",
+      "common-tags": "^1.8.2",
+      "cypress": "13.13.2",
+      "eslint": "^8.46.0",
+      "eslint-plugin-cypress": "^2.14.0"
+  }
+}

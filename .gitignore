@@ -1,0 +1,22 @@
+# Node artifact files
+node_modules
+
+# JetBrains IDE
+.idea/
+.history
+.vscode
+
+
+# Cypress
+cypress/screenshots
+cypress/videos
+cypress/logs
+results.json
+
+# Log files
+*.log
+*.aes
+*.txt
+
+#Package
+package-lock.json
